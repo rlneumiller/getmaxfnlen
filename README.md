@@ -1,5 +1,5 @@
 # getmaxfnlen
-Returns the length of the longest function name in the module (.py file) that it is called from
+Returns the length of the longest function name in a module (.py file)
 
 Could be useful for aligning logging output into columns, such as:
 
