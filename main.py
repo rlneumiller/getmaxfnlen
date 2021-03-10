@@ -3,6 +3,7 @@ def getlongestfnlen() -> int:
     maxlen = getlongestfnlen._maxlen
 
     curlen = 0
+    # see https://docs.python.org/3/library/functions.html?highlight=globals#globals
     for k,v in globals().items():
         if str(v).startswith('<function'):
             curlen = len(k)
