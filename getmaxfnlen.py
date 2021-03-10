@@ -1,8 +1,7 @@
-def atwentycharacterfunc():
-    pass
+#def atwentycharacterfunc():
+#    pass
 
 def f() -> int:
-    _maxlen = 0
     maxlen = 0
     # see https://docs.python.org/3/library/functions.html?highlight=globals#globals
     for k,v in globals().items():
