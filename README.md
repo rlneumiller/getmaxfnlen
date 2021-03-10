@@ -6,7 +6,7 @@ Could be useful for aligning logging output into columns, such as:
 ```
 print(
     inspect.currentframe().f_code.co_name,
-    " " * (getmaxfnlen() - len(inspect.currentframe().f_code.co_name)),
+    " " * (f() - len(inspect.currentframe().f_code.co_name)),
     path.basename(__file__)
     )
 ```
